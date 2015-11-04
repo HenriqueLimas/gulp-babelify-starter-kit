@@ -1,3 +1,5 @@
-import {getAnswer} from './foo/foo.js';
+import * as foo from './foo/foo.js';
 
-console.log(`The answer is ${getAnswer()}`);
+let $container = document.getElementById('container');
+
+foo.initModule($container);
