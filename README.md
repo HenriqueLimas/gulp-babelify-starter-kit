@@ -8,6 +8,7 @@ A web application starter kit with [Gulp](http://gulpjs.com/), [Browserify](http
 
 ## How to use?
 - [Download](https://github.com/HenriqueLimas/gulp-babelify-starter-kit/archive/master.zip) this repository and start developing your web app/site inside the ```public``` folder.
+- Install dependencies running ```npm install``` inside the project folder.
 - Run ```gulp serve``` in your terminal to start the web server with [live-reloading](http://www.browsersync.io/docs/api/#api-reload).
 
 ## How to test?
