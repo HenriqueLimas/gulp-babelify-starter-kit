@@ -1,6 +1,7 @@
 'use strict';
 
 require('./gulp-scripts');
+require('./gulp-lint');
 require('./gulp-styles');
 require('./gulp-templates');
 require('./gulp-clean');
@@ -23,6 +24,7 @@ module.exports = dist;
 
 function dist(done) {
   runSequence(
+    ['lint'],
     ['test:ci'],
     ['clean'],
     ['scripts'],
