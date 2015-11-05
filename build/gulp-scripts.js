@@ -22,5 +22,8 @@ gulp.task('scripts', function() {
     .pipe(source(src.scripts.main))
     .pipe(buffer())
     .pipe($.rename(src.scripts.main_dist))
+    .pipe($.sourcemaps.init())
+    .pipe($.uglify().on('error', $.util.log))
+    .pipe($.sourcemaps.write())
     .pipe(gulp.dest(src.dist_src));
 });
