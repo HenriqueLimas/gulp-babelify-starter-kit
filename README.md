@@ -7,6 +7,14 @@
 A web application starter kit with [Gulp](http://gulpjs.com/), [Browserify](http://browserify.org/) and [Babel](https://babeljs.io/)
 
 ## How to use?
+You can choose to use with Yeoman or you can dowload it.
+
+### Yeoman
+[generator-gulp-babelify](https://github.com/HenriqueLimas/generator-gulp-babelify)
+
+More about Yeoman [here](http://yeoman.io/)
+
+### Dowload
 - [Download](https://github.com/HenriqueLimas/gulp-babelify-starter-kit/archive/master.zip) this repository and start developing your web app/site inside the ```public``` folder.
 - Install dependencies running ```npm install``` inside the project folder.
 - Run ```gulp serve``` in your terminal to start the web server with [live-reloading](http://www.browsersync.io/docs/api/#api-reload).
@@ -33,6 +41,3 @@ No problem, feel free to edit the ```build/sources.js``` file with the folder st
 If you need to add, remove or edit any tasks from the default ```gulpfile```, you can edit all the files you want inside the ```build``` folder.
 
 For example, if you want to add [Sass](https://www.npmjs.com/package/gulp-sass) in your process you can edit the ```gulp-styles.js``` file with the respective configuration.
-
-## TODO
-- [ ] Yeoman generator
